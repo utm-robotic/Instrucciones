@@ -13,7 +13,7 @@ Lo primero que se tiene que hacer es instalar Git en tu máquina virtual. Para e
 # Usar SSH para autenticarte con GitHub
 Ahora abre una terminal y ejecuta el siguiente comando
 ```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com" # Aquí debes poner tu correo entre las comillas
 ```
 Ahora te preguntará dónde deseas guardar la clave SSH, elige el lugar predeterminado presionando Enter y ahora te pedirá una contraseña llamada passphrase, aquí queda a tu gusto si quieres omitir dando enter o insertando una (no aparecerá en la consola).
 

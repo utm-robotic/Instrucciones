@@ -8,6 +8,8 @@ Lo primero que se tiene que hacer es instalar Git en tu máquina virtual. Para e
 
 ![Git override default branch name](https://miro.medium.com/max/1400/1*V6pyalT1ByXwdI0nxdLSGg.png)
 
+![Git use OpenSSH](https://user-images.githubusercontent.com/191109/148549844-fe4404e2-46f5-4efc-8a84-95982991e9d9.png)
+
 # Usar SSH para autenticarte con GitHub
 Ahora abre una terminal y ejecuta el siguiente comando
 ```bash

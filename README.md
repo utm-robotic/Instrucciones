@@ -3,7 +3,9 @@ Introducción a Git y pasos para subir el programa a GitHub
 
 # Instalando Git
 Lo primero que se tiene que hacer es instalar Git en tu máquina virtual. Para ello tienen que visitar este [link](https://git-scm.com/download/win) para ello. 
-**IMPORTANTE:** Van a usar todo por defecto en la instalación EXCEPTO cuando pida sobreescribir la rama principal como se ve en la imagen:
+**IMPORTANTE:** Van a usar todo por defecto en la instalación EXCEPTO cuando pida sobreescribir la rama principal como se ve en la imagen. **TAMBIÉN SELECCIONAR Use External OpenSSH**
+
+
 ![Git override default branch name](https://miro.medium.com/max/1400/1*V6pyalT1ByXwdI0nxdLSGg.png)
 
 # Usar SSH para autenticarte con GitHub

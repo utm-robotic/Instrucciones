@@ -17,9 +17,14 @@ ssh-keygen -t ed25519 -C "your_email@example.com" # Aquí debes poner tu correo 
 ```
 Ahora te preguntará dónde deseas guardar la clave SSH, elige el lugar predeterminado presionando Enter y ahora te pedirá una contraseña llamada passphrase, aquí queda a tu gusto si quieres omitir dando enter o insertando una (no aparecerá en la consola).
 
+Antes de continuar, abre una terminal de Windows PowerShell en modo Administrador para ejecutar este comando que activará los usos de SSH
+```bash
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+```
+
 Ahora ejecuta estos dos comandos:
 ```bash
-eval "$(ssh-agent -s)"
+ssh-agent -s
 ssh-add ~/.ssh/id_ed25519
 ```
 
